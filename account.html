@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover kikiPlay Studios, a top-tier game store offering the latest games, accessories, and gaming technology. Join our community and experience the joy of gaming.">
+    <meta name="keywords" content="kikiPlay, gaming, video games, accessories, PlayStation, Xbox, Nintendo, game store, Nigeria">
+    <meta name="author" content="kikiPlay Studios">
+    <title>Sign In or Create Account - kikiPlay</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.css">
+    <link rel="icon" href="images/kikiPlay favicon.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="180*180" href="apple-touch-icon.png">
+    <link rel="icon" sizes="16*16" href="favicon-16*16.png">
+    <link rel="icon" sizes="32*32" href="favicon-32*32.png">
+    <link rel="icon" sizes="48*48" href="favicon-48*48.png">
+
+    <style>
+        body {
+            font-family: "Montserrat", "Raleway", "Nunito Sans";
+            font-size: 20px;
+        }
+
+        #registrationForm h2,
+        #loginForm h2 {
+            margin-bottom: 30px;
+        }
+
+        #registrationForm input,
+        #loginForm input {
+            margin: 0 auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: #536493;
+        }
+
+        .error {
+            color: red;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #registrationForm, #loginForm {
+            width: 50%;
+            margin: 0 auto;
+            box-shadow: 0 0 4px #536493;
+            padding: 50px;
+        }
+
+        .register input, .login input {
+            width: 100%;
+            height: 20px;
+        }
+
+        #reg-button, #login-button {
+            font-size: 12px;
+            font-weight: 700;
+            font-family: "Nunito Sans";
+            padding: 10px 10px;
+            background-color: #536493;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        button:hover {
+            background-color: #000;
+        }
+
+        .nav-menu a {
+        /* justify-content: center; */
+        margin: 10px 60px;
+        padding: 0 50px;
+        color: #000;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header id="first-header">
+        <div class="top">
+            <a href="about-kikiplay.html">
+                <h1>kiki<span>Play</span></h1>
+            </a>
+            <p>love the game</p>
+        </div>
+    </header>
+    
+    <header id="second-header">
+        <nav class="main-navigation">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/kikiPlay logo small 1.png" alt="">
+                </a>
+            </div>
+
+            <!-- Hamburger Menu for Mobile -->
+            <div class="hamburger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
+            <!-- Mobile Navigation Menu -->
+            <nav class="mobile-navigation">
+                <ul class="mobile-nav-menu">
+                    <li class="mobile-nav">
+                        <a href="games.html">Games <i class="fa-solid fa-gamepad"></i></a>
+                        <a href="accessories.html">Accessories <i class="fa-solid fa-headphones-simple"></i></a>
+                        <a href="store.html">Store <i class="fa-solid fa-store"></i></a>
+                        <a href="about-kikiplay.html">About <i class="fa-solid fa-circle-info"></i></a>
+                    </li>
+                </ul>
+                
+                <div class="mobile-account">
+                    <a href="account.html">Account</a>
+                    <input type="text" name="search" id="mobile-search" placeholder="search store">
+                </div>
+
+                <div class="mobile-first-details">
+                    <ul>
+                        <li><a href="https://www.playstation.com/en-us/games/indies/?smcid=pdc%3Aen-us%3Asupport%3Aprimary%20nav%3Amsg-games%3Aplaystation-indies" target="_blank">PlayStation Indies</a></li>
+                        <li><a href="https://www.playstation.com/en-us/editorial/great-free-to-play-games-on-playstation-4/?smcid=pdc%3Aen-us%3Agames-indies%3Aprimary%20nav%3Amsg-games%3Afree-to-play" target="_blank">Free to play</a></li>
+                        <li><a href="https://direct.playstation.com/en-us/hardware/ps5" target="_blank">Buy consoles</a></li>
+                        <li><a href="https://direct.playstation.com/en-us/games/catalog?s=onlineDate-desc" target="_blank">Buy games</a></li>
+                        <li><a href="https://www.playstation.com/en-us/accessories/?smcid=pdc%3Aen-us%3Aeditorial-great-free-to-play-games-on-playstation-4%3Aprimary%20nav%3Amsg-accessories%3Aall-accessories" target="_blank">Buy accessories</a></li>
+                    </ul>
+                </div> 
+            </nav>
+    
+            <ul class="navigation-menu">
+                <li class="nav-menu">
+                    <a href="games.html">Games <i class="fa-solid fa-gamepad"></i></a>
+                    <a href="accessories.html">Accessories <i class="fa-solid fa-headphones-simple"></i></a>
+                    <!-- <a href="news.html">News <i class="fa-regular fa-newspaper"></i></a> -->
+                    <a href="store.html">Store <i class="fa-solid fa-store"></i></a>
+                    <a href="about-kikiplay.html">About <i class="fa-solid fa-circle-info"></i></a>
+                </li>      
+            </ul>
+
+            <!-- <button class="account"><a href="account.html">Account</a>
+                <input type="search" name="search" id="search" placeholder="search store">
+            </button>    -->
+        </nav>
+    
+        <div class="first-details">
+            <ul>
+                <li><a href="https://www.playstation.com/en-us/games/indies/?smcid=pdc%3Aen-us%3Asupport%3Aprimary%20nav%3Amsg-games%3Aplaystation-indies" target="_blank">PlayStation Indies</a></li>
+                <li><a href="https://www.playstation.com/en-us/editorial/great-free-to-play-games-on-playstation-4/?smcid=pdc%3Aen-us%3Agames-indies%3Aprimary%20nav%3Amsg-games%3Afree-to-play" target="_blank">Free to play</a></li>
+                <li><a href="https://direct.playstation.com/en-us/hardware/ps5" target="_blank">Buy consoles</a></li>
+                <li><a href="https://direct.playstation.com/en-us/games/catalog?s=onlineDate-desc" target="_blank">Buy games</a></li>
+                <li><a href="https://www.playstation.com/en-us/accessories/?smcid=pdc%3Aen-us%3Aeditorial-great-free-to-play-games-on-playstation-4%3Aprimary%20nav%3Amsg-accessories%3Aall-accessories" target="_blank">Buy accessories</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <!-- Main Section --> 
+    <main id="main">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-toggle">
+            <i id="moon" class="fa-solid fa-moon"></i>
+            <!-- <i id="sun" class="fa-solid fa-sun"></i> -->
+        </button>
+
+        <section id="main-section">
+            <div class="hero-bg"> <!-- hero background -->
+                <img src="gifs/account - log in-create account.gif" alt="">
+            </div>
+            <br>
+            <div class="section"> 
+                <article>
+                    <h4>Log in or Create account</h4>
+                    <p style="font-size: 18px; font-weight: 400;"> <!-- p in a background color property -->
+                        Access to full personalized features in no time. <br>
+                        Quick and easy!
+                    </p>
+                </article>
+            </div>
+            <br>
+            <br>
+
+            <form id="registrationForm" class="register">
+                <h2>New user? Create account</h2>
+
+                <label for="regUsername">Username:</label><br>
+                <input type="text" id="regUsername" name="regUsername"><br>
+                <span id="regUsernameError" class="error"></span><br><br>
+
+                <label for="regEmail">Email:</label><br>
+                <input type="email" id="regEmail" name="regEmail"><br>
+                <span id="regEmailError" class="error"></span><br><br>
+
+                <label for="regPassword">Password:</label><br>
+                <input type="password" id="regPassword" name="regPassword"><br>
+                <span id="regPasswordError" class="error"></span><br><br>
+
+                <label for="regConfirmPassword">Confirm Password:</label><br>
+                <input type="password" id="regConfirmPassword" name="regConfirmPassword"><br>
+                <span id="regConfirmPasswordError" class="error"></span><br><br>
+
+                <button id="reg-button" type="submit">Create account</button> 
+                <span>Already have an account? <a href="#" id="login">Log in</a></span>
+            </form>
+            
+            <form id="loginForm" class="hidden">
+                <h2>Returning user? Log in</h2>
+
+                <label for="loginUsername">Username:</label><br>
+                <input type="text" id="loginUsername" name="loginUsername"><br>
+                <span id="loginUsernameError" class="error"></span><br><br>
+
+                <label for="loginPassword">Password:</label><br>
+                <input type="password" id="loginPassword" name="loginPassword"><br>
+                <span id="loginPasswordError" class="error"></span><br><br>
+
+                <button id="login-button" type="submit">Log in</button>  
+                <span> Don't have an account! <a href="#" id="signup">Create account</a></span>
+            </form>
+
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="region-info">
+            <img src="images/kikiPlay logo small 1 white circle.png" alt="" title="kikiPlay">
+            <i class="fa fa-globe"> <span>Country/Region: Nigeria</span></i>
+            <ul>
+                <li><a href="about-kikiplay.html">About kikiPlay Studios</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="https://www.playstation.com/en-us/corporate/playstation-studios/" target="_blank">PlayStation Studios</a></li>
+            </ul>
+        </div>
+
+        <div class="copyright-info">
+            &copy; 2024 kikiPlay Studios
+        </div> 
+    </footer>
+
+    <!-- Loading Animation -->
+    <div id="loading-overlay" class="loading-overlay">
+        <!-- <p>Loading...</p> -->
+        <div id="loading-spinner" class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+
+
+    <!-- Form validation and authentication JS Functionality -->
+    <script>
+        // Toggle between registration and login forms
+        document.getElementById("signup").addEventListener("click", function(event) {
+            event.preventDefault();
+            document.getElementById("registrationForm").classList.remove("hidden");
+            document.getElementById("loginForm").classList.add("hidden");
+        });
+
+        document.getElementById("login").addEventListener("click", function(event) {
+            event.preventDefault();
+            document.getElementById("registrationForm").classList.add("hidden");
+            document.getElementById("loginForm").classList.remove("hidden");
+        });
+
+        // Registration form validation
+        document.getElementById("registrationForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            // Clear previous errors
+            document.getElementById("regUsernameError").textContent = "";
+            document.getElementById("regEmailError").textContent = "";
+            document.getElementById("regPasswordError").textContent = "";
+            document.getElementById("regConfirmPasswordError").textContent = "";
+
+            // Get form values
+            const regUserName = document.getElementById("regUsername").value;
+            const regEmail = document.getElementById("regEmail").value;
+            const regPassword = document.getElementById("regPassword").value;
+            const regConfirmPassword = document.getElementById("regConfirmPassword").value;
+
+            let isValid = true;
+
+            // Username validation
+            if (regUserName === "") {
+                document.getElementById("regUsernameError").textContent = "Username is required";
+                isValid = false;
+            } else if (regUserName.length < 3) {
+            document.getElementById("regUsernameError").textContent = "Username must be at least 3 characters long";
+            isValid = false;
+            }
+
+            // Email validation
+            const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+            if (regEmail === "") {
+                document.getElementById("regEmailError").textContent = "Email is required";
+                isValid = false;
+            } else if (!emailPattern.test(regEmail)) {
+                document.getElementById("regEmailError").textContent = "Email is invalid";
+                isValid = false;
+            }
+
+            // Password validation
+            if (regPassword === "") {
+                document.getElementById("regPasswordError").textContent = "Password is required";
+                isValid = false;
+            } else if (regPassword.length < 6) {
+                document.getElementById("regPasswordError").textContent = "Password must be at least 6 characters long";
+                isValid = false;
+            }
+
+            // Confirm password validation
+            if (regConfirmPassword === "") {
+                document.getElementById("regConfirmPasswordError").textContent = "Please confirm your password";
+                isValid = false;
+            } else if (regPassword !== regConfirmPassword) {
+                document.getElementById("regConfirmPasswordError").textContent = "Passwords do not match";
+                isValid = false;
+            }
+
+            // If valid, save user data to localStorage
+            if (isValid) {
+                const userData = {
+                    username: regUserName,
+                    email: regEmail,
+                    password: regPassword
+                };
+
+                if (localStorage.getItem(regUserName)) {
+                    alert("Username already exists. Please choose another one.");
+                } else {
+                    localStorage.setItem(regUserName, JSON.stringify(userData));
+                    alert("Registration successful! You can now log in.");
+                    document.getElementById("registrationForm").classList.add("hidden");
+                    document.getElementById("loginForm").classList.remove("hidden");
+                }
+            }
+        });
+
+        // Login form validation and authentication
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            // Clear previous errors
+            document.getElementById("loginUsernameError").textContent = "";
+            document.getElementById("loginPasswordError").textContent = "";
+
+            const loginUsername = document.getElementById("loginUsername").value;
+            const loginPassword = document.getElementById("loginPassword").value;
+
+            let isValid = true;
+
+            // Username validation
+            if (loginUsername === "") {
+                document.getElementById("loginUsernameError").textContent = "Username is required";
+                isValid = false;
+            }
+
+            // Password validation
+            if (loginPassword === "") {
+                document.getElementById("loginPasswordError").textContent = "Password is required";
+                isValid = false;
+            }
+
+            // If valid, authenticate user
+            if (isValid) {
+                const savedUserData = localStorage.getItem(loginUsername);
+                if (savedUserData) {
+                    const userData = JSON.parse(savedUserData);
+                    if (loginPassword === userData.password) {
+                        alert(`Welcome back, ${userData.username}! You are now logged in.`);
+                    } else {
+                        document.getElementById("loginPasswordError").textContent = "Incorrect password";
+                    }
+                } else {
+                    document.getElementById("loginUsernameError").textContent = "Username not found";
+                }
+            }
+        });
+    </script>
+
+
+    <!-- Hamburger JS Functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log('DOM fully loaded and parsed');
+            
+            const hamburger = document.querySelector('.hamburger-menu');
+            const mobileNav = document.querySelector('.mobile-navigation');
+            
+            if (hamburger && mobileNav) {
+                hamburger.addEventListener('click', function () {
+                    mobileNav.classList.toggle('active');
+                    console.log('Hamburger clicked');
+                });
+            } else {
+                console.error('Hamburger menu or mobile navigation not found');
+            }
+        });
+    </script>
+
+
+    <!-- General JS -->
+    <script src="index.js"></script>
+
+</body>
+</html>
