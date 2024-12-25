@@ -42,4 +42,4 @@ This project is open-source and available under the MIT License.
 ## Contact
 For any inquiries, collaborations or feedback, you can reach me via email at [franklyn.akam@gmail.com].
 
-Thanks and best regards.
+## Thanks and best regards.
