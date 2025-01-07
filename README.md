@@ -36,9 +36,6 @@ GitHub: Hosting the project and enabling collaboration.
 ## Contributions
 Feel free to fork the repository and contribute to the project by creating pull requests. I welcome suggestions, improvements, collaborations, or any bug fixes!
 
-## License
-This project is open-source and available under the MIT License.
-
 ## Contact
 For any inquiries, collaborations or feedback, you can reach me via email at [franklyn.akam@gmail.com].
 
